@@ -58,7 +58,7 @@ function cellClicked(event) {
       h2.innerText = 'X done gave it to Ya !!!';
       setTimeout(function() {
       document.getElementById("Reset-Button").style.visibility='visible';
-    }, 800);
+      }, 800);
     } else {
       h2.innerText = 'O is the Winner!!!';
       setTimeout(function() {
@@ -116,5 +116,4 @@ function cellClicked(event) {
   }
 
 }
-
      
